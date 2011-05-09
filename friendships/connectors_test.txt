@@ -1,0 +1,97 @@
+Student 0 (sam, rutgers) > jane
+New graph Student 0 (sam, rutgers) > jane
+Added Student 1 (jane, rutgers) > sam > bob > kaitlin
+Student 1 (jane, rutgers) > sam > bob > kaitlin
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 0 (sam, rutgers) > jane
+
+Added Student 10 (bob, rutgers) > jane > samir
+Added Student 5 (kaitlin, rutgers) > jane > nick
+Student 2 (michele, cornell) > rachel > tom
+New graph Student 2 (michele, cornell) > rachel > tom
+Added Student 12 (rachel, null) > michele
+Added Student 14 (tom, ucla) > michele > rich
+Student 3 (sergei, rutgers) > aparna
+New graph Student 3 (sergei, rutgers) > aparna
+Added Student 7 (aparna, rutgers) > sergei > samir > ricardo
+Student 4 (ricardo, penn state) > aparna > nick
+Added Student 9 (nick, penn state) > kaitlin > ricardo > ming > heather
+Student 3 (kaitlin, rutgers) > jane > nick
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 2 (bob, rutgers) > jane > samir
+   Student 3 (kaitlin, rutgers) > jane > nick
+   Student 0 (sam, rutgers) > jane
+
+Added Student 3 (nick, penn state) > kaitlin > ricardo > ming > heather
+Student 6 (samir, null) > bob > aparna
+Added Student 1 (aparna, rutgers) > sergei > samir > ricardo
+Student 6 (aparna, rutgers) > sergei > samir > ricardo
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 2 (bob, rutgers) > jane > samir
+   Student 4 (nick, penn state) > kaitlin > ricardo > ming > heather
+   Student 3 (kaitlin, rutgers) > jane > nick
+   Student 6 (aparna, rutgers) > sergei > samir > ricardo
+   Student 5 (samir, null) > bob > aparna
+   Student 0 (sam, rutgers) > jane
+
+Added Student 0 (sergei, rutgers) > aparna
+Added Student 2 (ricardo, penn state) > aparna > nick
+Student 8 (ming, penn state) > nick
+Student 4 (nick, penn state) > kaitlin > ricardo > ming > heather
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 8 (ricardo, penn state) > aparna > nick
+   Student 2 (bob, rutgers) > jane > samir
+   Student 4 (nick, penn state) > kaitlin > ricardo > ming > heather
+   Student 7 (sergei, rutgers) > aparna
+   Student 9 (ming, penn state) > nick
+   Student 3 (kaitlin, rutgers) > jane > nick
+   Student 6 (aparna, rutgers) > sergei > samir > ricardo
+   Student 5 (samir, null) > bob > aparna
+   Student 0 (sam, rutgers) > jane
+
+Added Student 11 (heather, penn state) > nick
+Student 2 (bob, rutgers) > jane > samir
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 8 (ricardo, penn state) > aparna > nick
+   Student 2 (bob, rutgers) > jane > samir
+   Student 4 (nick, penn state) > kaitlin > ricardo > ming > heather
+   Student 7 (sergei, rutgers) > aparna
+   Student 9 (ming, penn state) > nick
+   Student 3 (kaitlin, rutgers) > jane > nick
+   Student 10 (heather, penn state) > nick
+   Student 6 (aparna, rutgers) > sergei > samir > ricardo
+   Student 5 (samir, null) > bob > aparna
+   Student 0 (sam, rutgers) > jane
+
+Student 10 (heather, penn state) > nick
+Old graph Graph object: 
+   Student 1 (jane, rutgers) > sam > bob > kaitlin
+   Student 8 (ricardo, penn state) > aparna > nick
+   Student 2 (bob, rutgers) > jane > samir
+   Student 4 (nick, penn state) > kaitlin > ricardo > ming > heather
+   Student 7 (sergei, rutgers) > aparna
+   Student 9 (ming, penn state) > nick
+   Student 3 (kaitlin, rutgers) > jane > nick
+   Student 10 (heather, penn state) > nick
+   Student 6 (aparna, rutgers) > sergei > samir > ricardo
+   Student 5 (samir, null) > bob > aparna
+   Student 0 (sam, rutgers) > jane
+
+Student 1 (rachel, null) > michele
+Old graph Graph object: 
+   Student 0 (michele, cornell) > rachel > tom
+   Student 2 (tom, ucla) > michele > rich
+   Student 1 (rachel, null) > michele
+
+Student 13 (rich, ucla) > tom
+Student 2 (tom, ucla) > michele > rich
+Old graph Graph object: 
+   Student 3 (rich, ucla) > tom
+   Student 0 (michele, cornell) > rachel > tom
+   Student 2 (tom, ucla) > michele > rich
+   Student 1 (rachel, null) > michele
