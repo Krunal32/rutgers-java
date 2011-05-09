@@ -22,7 +22,8 @@ public class quicksort
 		
 		System.out.println(numbers);
 		System.out.println(sort(numbers));
-	}
+	   System.out.println(sort2(numbers));
+   }
 	
 	public static Vector<Integer> sort(Vector<Integer> numbers)
 	{
@@ -30,6 +31,12 @@ public class quicksort
 		return numbers;
 	}
 		
+   public static Vector<Integer> sort2(Vector<Integer> numbers)
+   {
+      quick2(numbers, 0, numbers.size()-1);
+      return numbers;
+   }
+
 	public static void quick(Vector<Integer> numbers, int low, int high)
 	{
 		// if the low is ever greater than high
@@ -82,6 +89,55 @@ public class quicksort
 		// so we can take a different value;
 		quick(numbers, i == low ? i+1 : i, high); 
 	}
+
+   public static void quick2(Vector<Integer> numbers, int low, int high)
+   {
+      // error conditioning
+      // base case
+      if (low >= high)
+         return;
+      
+      // creating our L and R pointers
+      // selecting our pivot value
+      int pivot = numbers.get(low); // we'll just choose it as our low
+      int L = low;
+      int R = high;
+
+      // as long as our L pointer is <= to our R pointer
+      // then we're in good shape
+      // if they cross, we'd be incorrectly swapping values
+      while (L <= R)
+      {
+         // selecting L value that is greater
+         // than the pivot
+         while (L <= R && numbers.get(L) <= pivot)
+            L++;
+
+         // selecting R value that is less than pivot
+         while (L <= R && numbers.get(R) >= pivot)
+            R--;   
+      
+         // since the L and R are values that
+         // aren't supposed to be on those sides
+         // we have to swap them
+         // and move our pointers
+         if (L <= R)
+         {
+            swap(numbers, L, R);
+            L++;
+            R--;
+         }
+      }
+
+      // once our L and R pointers cross
+      // we need to place our pivot in the correct position
+      // which is basically the "middle"
+      swap(numbers, low, R);
+
+      // then we sort the left and right hand sides accordingly
+      quick2(numbers, low, R-1);
+      quick2(numbers, R+1, high);
+   }  
 	
 	public static void swap (Vector<Integer> numbers, int n1, int n2)
 	{
