@@ -1,0 +1,45 @@
+Name: Steven Lu
+
+1)
+
+Inputs				Expected			Actual
+------				--------			------
+catch				catches				catches
+fox					foxes				foxes
+grass				grasses				grasses
+fungus				fungi				fungi
+syllabus			syllabi				syllabi
+us					uses				uses
+mother-in-law		mothers-in-law		mothers-in-law
+attorney general	attorneys general	attorneys general
+general in law		generals in law		generals in law
+
+2)
+
+Inputs					Expected				Actual
+------					--------				------
+Lu, Steven J
+Elias Tsang
+Jason Caetano			Caetano, Lu, Tsang		Caetano, Lu, Tsang
+Polk, James Knox
+Tyler, John
+William Henry Harrison	Harrison, Polk, Tyler	Harrison, Polk, Tyler
+
+
+3)
+
+Inputs				Expected			Actual
+------				--------			------
+this is cool		siht si looc		siht si looc
+i don't like this	i t'nod ekil siht	i t'nod ekil siht
+
+
+4)
+
+Inputs									Expected				Actual
+------									--------				------
+qwwwwwwwwweeeeerrtyyyyyqqqqwEErTTT		q9w5e2rt5y4qw2Er3T		q9w5e2rt5y4qw2Er3T
+aaaaaaa$$$abbbbbccccc					7a3$a5b5c				7a3$a5b5c
+aaaa    ckjeeeee   ssee##  $$			3a4 ckj5e3 2s2e2#2 2$	3a4 ckj5e3 2s2e2#2 2$
+
+// Please send me an email (sjlu@eden.rutgers.edu) on what test cases I am missing if applicable...

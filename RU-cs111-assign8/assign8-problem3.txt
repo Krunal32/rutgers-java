@@ -1,0 +1,36 @@
+Name: Steven Lu
+
+a)
+Let n be the length of the linked list.
+In the loop, we go through n/2 operations, skipping every other.
+The loop performs two linked list operations, changing the "next" of the element.
+Making that O(1) time.
+
+Adding it all up, we get n/2+1, removing constants, we get O(n).
+
+b)
+Let n be the lenght of the linked list
+In the loop, we go through all of the elements, meaning we go through all n elements.
+In the inner loop, we go through the list of elements, from the current posistion. 
+For example, if outer loop is at 2nd position of a linked list of 5 elements, the innter loop does n-2=3 iterations
+That mathematical shows ln(n) complexity, adding it up, we get O(n*ln(n))
+
+
+c)
+Let the first linked list length be n.
+If we're lucky, n will be empty and we won't have to go to the loop, making that constant time.
+If not, we're gonna have to go through all of elements and add it to our new list.
+We don't have to worry about the second list, because we'll just append it to the last element in our combined list.
+Therefore, this operation operates at linear time. Making that O(n).
+
+
+d)
+Let n be the length of the linked list.
+There is no break point command, so this function does not have a "best case senario"
+All the operations inside the loop work at constant time for mathematical functions, etc.
+Therefore the loop goes through linear complexity, O(n).
+
+
+e)
+This is a bunch of crap, therefore it is O(n) complexity.
+

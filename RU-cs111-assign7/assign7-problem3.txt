@@ -1,0 +1,25 @@
+1)
+Trace insertion sort
+X D O R A M Z Q
+D X O R A M Z Q
+D O X R A M Z Q
+D O R X A M Z Q
+A D O R X M Z Q
+A D M O R X Z Q
+A D M O R X Z Q
+A D M O Q R X Z
+
+2)
+Running time will not vary in this case because there are no break or return commands listed.
+If we make n equal the number of rows in the array, we assume the inner loop (cols) is independant, giving it
+a seperate variable "r".
+we then have r*n = r*n
+Big O definition states we only take most significant variables,
+therefore our complexity is O(r*n).
+
+3)
+Best case senario is that it finds it on the first pass, therefore we get O(n)
+Worst case senario is that we never find it, meaning we pass through every element in the array.
+Since there's one loop w/ a nested loop inside it and we can assume that the outer loop gets
+variable r while the inner loop gets variable n because they are independant from each other.
+Therefore the worst case complexity is O(r*n).

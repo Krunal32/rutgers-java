@@ -1,0 +1,26 @@
+Name: Steven Lu
+
+a)
+Let n be the initial variable "a".
+All statements cost constant time, or "1".
+From the second return statement, we see that the function calls upon itself again and again.
+Until the a reaches "0" or its base case. In that case, it will return "0" instead of itself.
+And therefore we see that this function requires O(n) time.
+
+b)
+Let n be the exponent of 10 of which the value can be divisble or multiplied by until the value is within 1 and 10.
+We can see that this function calls upon itself "n" until the number reaches the range
+while we treat all comparisons at constant time.
+We therefore can state that this function takes O(n) time.
+
+c)
+
+
+
+d)
+
+
+
+e)
+
+

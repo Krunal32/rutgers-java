@@ -1,0 +1,51 @@
+1)
+n is the length of array
+one loop running through each iteration of the array
+so n*1 = n
+take most significant var. n
+therefore O(n).
+
+2)
+n is the length of array.
+one loop, two operations
+operations run at O(1), loop at O(n)
+therefore, O(n).
+
+3)
+n is the length of the array
+one array with one nested array in it
+we're assuming worst case senario,
+therefore n*n = O(n^2)
+
+4)
+array s and c are the same,
+therefore we replace it as n
+two loops, one has a nested loop
+first loop is 1*n
+second loop is n*n
+we add non-nested loops, n+n^2
+we take the most signifcant for big-O
+therefore it is O(n)
+
+5)
+let n = array.length-1
+outer loop performs n operations
+nested loop performs n! operations ex. (5+4+3+2+1)
+therefore, this still remains O(n)
+
+6)
+selection sort requires n^2 complexity
+we have to sorts, therefore 2*n^2
+another array runs through n times
+we get 2*n^2 + n
+we take only significant variable
+2*n^2, and drop constants
+O(n^2)
+
+7)
+selection sort is again n^2 complexity
+above selection sort, is bubble sort, which is n^2 complexity
+selection sort requires to go through the arrays no matter what,
+therefore we still get n^2 complexity
+so we have 2*n^2
+remove constant, O(n^2)
