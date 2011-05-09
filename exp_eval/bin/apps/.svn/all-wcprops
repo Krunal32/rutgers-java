@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps/Expression.java
+END
+Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps/Evaluator.java
+END
+ArraySymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps/ArraySymbol.java
+END
+Bracket.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps/Bracket.java
+END
+ScalarSymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sluzorz/RU-cs112-spring2011/!svn/ver/9/exp_eval/src/apps/ScalarSymbol.java
+END
