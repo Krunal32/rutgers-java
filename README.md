@@ -1,8 +1,13 @@
-# Warning
+# rutgers java
 
-Do not copy of any sort, I will guarantee that you'll be under violation of Academic Integrity. This is your only warning.
+stuff that I did at rutgers
 
-## Included Stuff
+## warning
+
+* if you copy this straight out, you will violate academic integrity, I guarantee it
+* my grade is not posted so I have no idea what works and what doesn't
+
+## stuff
 
 ###fall 2010
 * ru-cs111-assign2: leapyears, ordercost, party calculation, taxes
@@ -15,7 +20,7 @@ Do not copy of any sort, I will guarantee that you'll be under violation of Acad
 * ru-cs111-assign9: recursion
 * ru-cs111-assign10: hotel rooms
 
-## spring 2011
+### spring 2011
 * LittleSearchEngine - uses hash tables
 * DOM - using trees, with help from @rfranknj
 * interval_tree - interval trees
@@ -23,10 +28,10 @@ Do not copy of any sort, I will guarantee that you'll be under violation of Acad
 * Friendships - DFS, graphs, dijkstras, islands with help from @rfranknj
 * solitare_enc - encryption using circularly linked lists
 
-* spring 2012
+### spring 2012
 * DOM Tree Assignment - In succession to help students, similar to spring 2011.
 
-## other
+### other
 * mergesort.java
 * quicksort.java
 * recursion.java - recursion examples
